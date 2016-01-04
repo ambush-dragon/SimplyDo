@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA02A9AA1B02A67F00CE2102 /* ListDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA02A9A91B02A67F00CE2102 /* ListDetailViewController.swift */; };
+		DA22BE971AD87A9900A7E210 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA22BE961AD87A9900A7E210 /* AppDelegate.swift */; };
+		DA22BE9A1AD87A9900A7E210 /* SimplyDo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DA22BE981AD87A9900A7E210 /* SimplyDo.xcdatamodeld */; };
+		DA22BE9C1AD87A9900A7E210 /* ChecklistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA22BE9B1AD87A9900A7E210 /* ChecklistViewController.swift */; };
+		DA22BE9F1AD87A9900A7E210 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA22BE9D1AD87A9900A7E210 /* Main.storyboard */; };
+		DA22BEA11AD87A9900A7E210 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA22BEA01AD87A9900A7E210 /* Images.xcassets */; };
+		DA22BEA41AD87A9900A7E210 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA22BEA21AD87A9900A7E210 /* LaunchScreen.xib */; };
+		DA22BEB01AD87A9900A7E210 /* SimplyDoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA22BEAF1AD87A9900A7E210 /* SimplyDoTests.swift */; };
+		DA22BEBA1AD87ABA00A7E210 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA22BEB91AD87ABA00A7E210 /* iAd.framework */; };
+		DA3986F31B6AE2E90098FFDB /* IconPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3986F21B6AE2E90098FFDB /* IconPickerViewController.swift */; };
+		DA5E96671AEEBF67003306EE /* ItemDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5E96661AEEBF67003306EE /* ItemDetailViewController.swift */; };
+		DA81A5FE1B30DA8C002C40D1 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA81A5FD1B30DA8C002C40D1 /* DataModel.swift */; };
+		DA9B46C01ADC7CE900680F16 /* ChecklistItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9B46BF1ADC7CE900680F16 /* ChecklistItem.swift */; };
+		DAAAB2D01B014BF9003E8D15 /* AllListsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAAB2CF1B014BF9003E8D15 /* AllListsViewController.swift */; };
+		DAAAB2D21B015299003E8D15 /* Checklist.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAAB2D11B015299003E8D15 /* Checklist.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA22BEAA1AD87A9900A7E210 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA22BE891AD87A9900A7E210 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA22BE901AD87A9900A7E210;
+			remoteInfo = "You and Me List";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DA02A9A91B02A67F00CE2102 /* ListDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = ListDetailViewController.swift; path = SimplyDo/ListDetailViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		DA22BE911AD87A9900A7E210 /* SimplyDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimplyDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA22BE951AD87A9900A7E210 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = SimplyDo/Info.plist; sourceTree = "<group>"; };
+		DA22BE961AD87A9900A7E210 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = AppDelegate.swift; path = SimplyDo/AppDelegate.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		DA22BE991AD87A9900A7E210 /* SimplyDo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SimplyDo.xcdatamodel; sourceTree = "<group>"; };
+		DA22BE9B1AD87A9900A7E210 /* ChecklistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = ChecklistViewController.swift; path = SimplyDo/ChecklistViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		DA22BE9E1AD87A9900A7E210 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DA22BEA01AD87A9900A7E210 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = SimplyDo/Images.xcassets; sourceTree = "<group>"; };
+		DA22BEA31AD87A9900A7E210 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DA22BEA91AD87A9900A7E210 /* SimplyDo.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimplyDo.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA22BEAE1AD87A9900A7E210 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = SimplyDoTests/Info.plist; sourceTree = "<group>"; };
+		DA22BEAF1AD87A9900A7E210 /* SimplyDoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = SimplyDoTests.swift; path = SimplyDoTests/SimplyDoTests.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		DA22BEB91AD87ABA00A7E210 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		DA3986F21B6AE2E90098FFDB /* IconPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IconPickerViewController.swift; path = SimplyDo/IconPickerViewController.swift; sourceTree = "<group>"; };
+		DA5E96661AEEBF67003306EE /* ItemDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = ItemDetailViewController.swift; path = SimplyDo/ItemDetailViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		DA81A5FD1B30DA8C002C40D1 /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = DataModel.swift; path = SimplyDo/DataModel.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		DA9B46BF1ADC7CE900680F16 /* ChecklistItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = ChecklistItem.swift; path = SimplyDo/ChecklistItem.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		DAAAB2CF1B014BF9003E8D15 /* AllListsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = AllListsViewController.swift; path = SimplyDo/AllListsViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		DAAAB2D11B015299003E8D15 /* Checklist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = Checklist.swift; path = SimplyDo/Checklist.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA22BE8E1AD87A9900A7E210 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA22BEBA1AD87ABA00A7E210 /* iAd.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA22BEA61AD87A9900A7E210 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA22BE881AD87A9900A7E210 = {
+			isa = PBXGroup;
+			children = (
+				DA22BEB91AD87ABA00A7E210 /* iAd.framework */,
+				DA22BE931AD87A9900A7E210 /* SimplyDo */,
+				DA22BEAC1AD87A9900A7E210 /* SimplyDoTests */,
+				DA22BE921AD87A9900A7E210 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA22BE921AD87A9900A7E210 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA22BE911AD87A9900A7E210 /* SimplyDo.app */,
+				DA22BEA91AD87A9900A7E210 /* SimplyDo.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA22BE931AD87A9900A7E210 /* SimplyDo */ = {
+			isa = PBXGroup;
+			children = (
+				DA22BE961AD87A9900A7E210 /* AppDelegate.swift */,
+				DA22BE9B1AD87A9900A7E210 /* ChecklistViewController.swift */,
+				DA22BE9D1AD87A9900A7E210 /* Main.storyboard */,
+				DA22BEA01AD87A9900A7E210 /* Images.xcassets */,
+				DA22BEA21AD87A9900A7E210 /* LaunchScreen.xib */,
+				DA22BE981AD87A9900A7E210 /* SimplyDo.xcdatamodeld */,
+				DA22BE941AD87A9900A7E210 /* Supporting Files */,
+			);
+			name = SimplyDo;
+			path = "You and Me List";
+			sourceTree = "<group>";
+		};
+		DA22BE941AD87A9900A7E210 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DAAAB2CF1B014BF9003E8D15 /* AllListsViewController.swift */,
+				DAAAB2D11B015299003E8D15 /* Checklist.swift */,
+				DA3986F21B6AE2E90098FFDB /* IconPickerViewController.swift */,
+				DA9B46BF1ADC7CE900680F16 /* ChecklistItem.swift */,
+				DA02A9A91B02A67F00CE2102 /* ListDetailViewController.swift */,
+				DA5E96661AEEBF67003306EE /* ItemDetailViewController.swift */,
+				DA81A5FD1B30DA8C002C40D1 /* DataModel.swift */,
+				DA22BE951AD87A9900A7E210 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DA22BEAC1AD87A9900A7E210 /* SimplyDoTests */ = {
+			isa = PBXGroup;
+			children = (
+				DA22BEAF1AD87A9900A7E210 /* SimplyDoTests.swift */,
+				DA22BEAD1AD87A9900A7E210 /* Supporting Files */,
+			);
+			name = SimplyDoTests;
+			path = "You and Me ListTests";
+			sourceTree = "<group>";
+		};
+		DA22BEAD1AD87A9900A7E210 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA22BEAE1AD87A9900A7E210 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA22BE901AD87A9900A7E210 /* SimplyDo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA22BEB31AD87A9900A7E210 /* Build configuration list for PBXNativeTarget "SimplyDo" */;
+			buildPhases = (
+				DA22BE8D1AD87A9900A7E210 /* Sources */,
+				DA22BE8E1AD87A9900A7E210 /* Frameworks */,
+				DA22BE8F1AD87A9900A7E210 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimplyDo;
+			productName = "You and Me List";
+			productReference = DA22BE911AD87A9900A7E210 /* SimplyDo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA22BEA81AD87A9900A7E210 /* SimplyDoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA22BEB61AD87A9900A7E210 /* Build configuration list for PBXNativeTarget "SimplyDoTests" */;
+			buildPhases = (
+				DA22BEA51AD87A9900A7E210 /* Sources */,
+				DA22BEA61AD87A9900A7E210 /* Frameworks */,
+				DA22BEA71AD87A9900A7E210 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA22BEAB1AD87A9900A7E210 /* PBXTargetDependency */,
+			);
+			name = SimplyDoTests;
+			productName = "You and Me ListTests";
+			productReference = DA22BEA91AD87A9900A7E210 /* SimplyDo.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA22BE891AD87A9900A7E210 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0720;
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Paul Prestwood";
+				TargetAttributes = {
+					DA22BE901AD87A9900A7E210 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					DA22BEA81AD87A9900A7E210 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = DA22BE901AD87A9900A7E210;
+					};
+				};
+			};
+			buildConfigurationList = DA22BE8C1AD87A9900A7E210 /* Build configuration list for PBXProject "SimplyDo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA22BE881AD87A9900A7E210;
+			productRefGroup = DA22BE921AD87A9900A7E210 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA22BE901AD87A9900A7E210 /* SimplyDo */,
+				DA22BEA81AD87A9900A7E210 /* SimplyDoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA22BE8F1AD87A9900A7E210 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA22BE9F1AD87A9900A7E210 /* Main.storyboard in Resources */,
+				DA22BEA41AD87A9900A7E210 /* LaunchScreen.xib in Resources */,
+				DA22BEA11AD87A9900A7E210 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA22BEA71AD87A9900A7E210 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA22BE8D1AD87A9900A7E210 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA22BE9C1AD87A9900A7E210 /* ChecklistViewController.swift in Sources */,
+				DA5E96671AEEBF67003306EE /* ItemDetailViewController.swift in Sources */,
+				DA9B46C01ADC7CE900680F16 /* ChecklistItem.swift in Sources */,
+				DA3986F31B6AE2E90098FFDB /* IconPickerViewController.swift in Sources */,
+				DAAAB2D01B014BF9003E8D15 /* AllListsViewController.swift in Sources */,
+				DA02A9AA1B02A67F00CE2102 /* ListDetailViewController.swift in Sources */,
+				DA22BE971AD87A9900A7E210 /* AppDelegate.swift in Sources */,
+				DA22BE9A1AD87A9900A7E210 /* SimplyDo.xcdatamodeld in Sources */,
+				DAAAB2D21B015299003E8D15 /* Checklist.swift in Sources */,
+				DA81A5FE1B30DA8C002C40D1 /* DataModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA22BEA51AD87A9900A7E210 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA22BEB01AD87A9900A7E210 /* SimplyDoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA22BEAB1AD87A9900A7E210 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA22BE901AD87A9900A7E210 /* SimplyDo */;
+			targetProxy = DA22BEAA1AD87A9900A7E210 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DA22BE9D1AD87A9900A7E210 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA22BE9E1AD87A9900A7E210 /* Base */,
+			);
+			name = Main.storyboard;
+			path = SimplyDo;
+			sourceTree = "<group>";
+		};
+		DA22BEA21AD87A9900A7E210 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA22BEA31AD87A9900A7E210 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			path = SimplyDo;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA22BEB11AD87A9900A7E210 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA22BEB21AD87A9900A7E210 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA22BEB41AD87A9900A7E210 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_ON_DEMAND_RESOURCES = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/SimplyDo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.californiacodedesigns.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = SimplyDo;
+				PROVISIONING_PROFILE = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		DA22BEB51AD87A9900A7E210 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_ON_DEMAND_RESOURCES = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				INFOPLIST_FILE = "$(SRCROOT)/SimplyDo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.californiacodedesigns.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = SimplyDo;
+				PROVISIONING_PROFILE = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		DA22BEB71AD87A9900A7E210 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SimplyDoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.californiacodedesigns.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = SimplyDo;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimplyDo.app/SimplyDo";
+			};
+			name = Debug;
+		};
+		DA22BEB81AD87A9900A7E210 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = "";
+				INFOPLIST_FILE = SimplyDoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.californiacodedesigns.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = SimplyDo;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimplyDo.app/SimplyDo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA22BE8C1AD87A9900A7E210 /* Build configuration list for PBXProject "SimplyDo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA22BEB11AD87A9900A7E210 /* Debug */,
+				DA22BEB21AD87A9900A7E210 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA22BEB31AD87A9900A7E210 /* Build configuration list for PBXNativeTarget "SimplyDo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA22BEB41AD87A9900A7E210 /* Debug */,
+				DA22BEB51AD87A9900A7E210 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA22BEB61AD87A9900A7E210 /* Build configuration list for PBXNativeTarget "SimplyDoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA22BEB71AD87A9900A7E210 /* Debug */,
+				DA22BEB81AD87A9900A7E210 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DA22BE981AD87A9900A7E210 /* SimplyDo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DA22BE991AD87A9900A7E210 /* SimplyDo.xcdatamodel */,
+			);
+			currentVersion = DA22BE991AD87A9900A7E210 /* SimplyDo.xcdatamodel */;
+			path = SimplyDo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DA22BE891AD87A9900A7E210 /* Project object */;
+}

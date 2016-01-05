@@ -7,21 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DA02A9AA1B02A67F00CE2102 /* ListDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA02A9A91B02A67F00CE2102 /* ListDetailViewController.swift */; };
-		DA22BE971AD87A9900A7E210 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA22BE961AD87A9900A7E210 /* AppDelegate.swift */; };
-		DA22BE9A1AD87A9900A7E210 /* SimplyDo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DA22BE981AD87A9900A7E210 /* SimplyDo.xcdatamodeld */; };
-		DA22BE9C1AD87A9900A7E210 /* ChecklistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA22BE9B1AD87A9900A7E210 /* ChecklistViewController.swift */; };
-		DA22BE9F1AD87A9900A7E210 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA22BE9D1AD87A9900A7E210 /* Main.storyboard */; };
-		DA22BEA11AD87A9900A7E210 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA22BEA01AD87A9900A7E210 /* Images.xcassets */; };
-		DA22BEA41AD87A9900A7E210 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA22BEA21AD87A9900A7E210 /* LaunchScreen.xib */; };
-		DA22BEB01AD87A9900A7E210 /* SimplyDoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA22BEAF1AD87A9900A7E210 /* SimplyDoTests.swift */; };
 		DA22BEBA1AD87ABA00A7E210 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA22BEB91AD87ABA00A7E210 /* iAd.framework */; };
-		DA3986F31B6AE2E90098FFDB /* IconPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3986F21B6AE2E90098FFDB /* IconPickerViewController.swift */; };
-		DA5E96671AEEBF67003306EE /* ItemDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5E96661AEEBF67003306EE /* ItemDetailViewController.swift */; };
-		DA81A5FE1B30DA8C002C40D1 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA81A5FD1B30DA8C002C40D1 /* DataModel.swift */; };
-		DA9B46C01ADC7CE900680F16 /* ChecklistItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9B46BF1ADC7CE900680F16 /* ChecklistItem.swift */; };
-		DAAAB2D01B014BF9003E8D15 /* AllListsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAAB2CF1B014BF9003E8D15 /* AllListsViewController.swift */; };
-		DAAAB2D21B015299003E8D15 /* Checklist.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAAB2D11B015299003E8D15 /* Checklist.swift */; };
+		DAF582D61C3B469B006AF1A1 /* SimplyDoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF582D51C3B469B006AF1A1 /* SimplyDoTests.swift */; };
+		DAF582E21C3B4714006AF1A1 /* AllListsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF582D71C3B4714006AF1A1 /* AllListsViewController.swift */; };
+		DAF582E31C3B4714006AF1A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF582D81C3B4714006AF1A1 /* AppDelegate.swift */; };
+		DAF582E41C3B4714006AF1A1 /* Checklist.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF582D91C3B4714006AF1A1 /* Checklist.swift */; };
+		DAF582E51C3B4714006AF1A1 /* ChecklistItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF582DA1C3B4714006AF1A1 /* ChecklistItem.swift */; };
+		DAF582E61C3B4714006AF1A1 /* ChecklistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF582DB1C3B4714006AF1A1 /* ChecklistViewController.swift */; };
+		DAF582E71C3B4714006AF1A1 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF582DC1C3B4714006AF1A1 /* DataModel.swift */; };
+		DAF582E81C3B4714006AF1A1 /* IconPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF582DD1C3B4714006AF1A1 /* IconPickerViewController.swift */; };
+		DAF582E91C3B4714006AF1A1 /* ItemDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF582DE1C3B4714006AF1A1 /* ItemDetailViewController.swift */; };
+		DAF582EA1C3B4714006AF1A1 /* ListDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF582DF1C3B4714006AF1A1 /* ListDetailViewController.swift */; };
+		DAF582EB1C3B4714006AF1A1 /* SimplyDo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DAF582E01C3B4714006AF1A1 /* SimplyDo.xcdatamodeld */; };
+		DAF582EF1C3B47B8006AF1A1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAF582ED1C3B47B8006AF1A1 /* Images.xcassets */; };
+		DAF582F41C3B4833006AF1A1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAF582F01C3B4833006AF1A1 /* LaunchScreen.xib */; };
+		DAF582F51C3B4833006AF1A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAF582F21C3B4833006AF1A1 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,25 +35,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DA02A9A91B02A67F00CE2102 /* ListDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = ListDetailViewController.swift; path = SimplyDo/ListDetailViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		DA22BE911AD87A9900A7E210 /* SimplyDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimplyDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA22BE951AD87A9900A7E210 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = SimplyDo/Info.plist; sourceTree = "<group>"; };
-		DA22BE961AD87A9900A7E210 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = AppDelegate.swift; path = SimplyDo/AppDelegate.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		DA22BE991AD87A9900A7E210 /* SimplyDo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SimplyDo.xcdatamodel; sourceTree = "<group>"; };
-		DA22BE9B1AD87A9900A7E210 /* ChecklistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = ChecklistViewController.swift; path = SimplyDo/ChecklistViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		DA22BE9E1AD87A9900A7E210 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DA22BEA01AD87A9900A7E210 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = SimplyDo/Images.xcassets; sourceTree = "<group>"; };
-		DA22BEA31AD87A9900A7E210 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		DA22BEA91AD87A9900A7E210 /* SimplyDo.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimplyDo.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA22BEAE1AD87A9900A7E210 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = SimplyDoTests/Info.plist; sourceTree = "<group>"; };
 		DA22BEAF1AD87A9900A7E210 /* SimplyDoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = SimplyDoTests.swift; path = SimplyDoTests/SimplyDoTests.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		DA22BEB91AD87ABA00A7E210 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
-		DA3986F21B6AE2E90098FFDB /* IconPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IconPickerViewController.swift; path = SimplyDo/IconPickerViewController.swift; sourceTree = "<group>"; };
-		DA5E96661AEEBF67003306EE /* ItemDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = ItemDetailViewController.swift; path = SimplyDo/ItemDetailViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		DA81A5FD1B30DA8C002C40D1 /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = DataModel.swift; path = SimplyDo/DataModel.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		DA9B46BF1ADC7CE900680F16 /* ChecklistItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = ChecklistItem.swift; path = SimplyDo/ChecklistItem.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		DAAAB2CF1B014BF9003E8D15 /* AllListsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = AllListsViewController.swift; path = SimplyDo/AllListsViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		DAAAB2D11B015299003E8D15 /* Checklist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = Checklist.swift; path = SimplyDo/Checklist.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		DAF582D51C3B469B006AF1A1 /* SimplyDoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SimplyDoTests.swift; path = SimplyDoTests/SimplyDoTests.swift; sourceTree = "<group>"; };
+		DAF582D71C3B4714006AF1A1 /* AllListsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AllListsViewController.swift; path = SimplyDo/AllListsViewController.swift; sourceTree = "<group>"; };
+		DAF582D81C3B4714006AF1A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = SimplyDo/AppDelegate.swift; sourceTree = "<group>"; };
+		DAF582D91C3B4714006AF1A1 /* Checklist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Checklist.swift; path = SimplyDo/Checklist.swift; sourceTree = "<group>"; };
+		DAF582DA1C3B4714006AF1A1 /* ChecklistItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ChecklistItem.swift; path = SimplyDo/ChecklistItem.swift; sourceTree = "<group>"; };
+		DAF582DB1C3B4714006AF1A1 /* ChecklistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ChecklistViewController.swift; path = SimplyDo/ChecklistViewController.swift; sourceTree = "<group>"; };
+		DAF582DC1C3B4714006AF1A1 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DataModel.swift; path = SimplyDo/DataModel.swift; sourceTree = "<group>"; };
+		DAF582DD1C3B4714006AF1A1 /* IconPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = IconPickerViewController.swift; path = SimplyDo/IconPickerViewController.swift; sourceTree = "<group>"; };
+		DAF582DE1C3B4714006AF1A1 /* ItemDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ItemDetailViewController.swift; path = SimplyDo/ItemDetailViewController.swift; sourceTree = "<group>"; };
+		DAF582DF1C3B4714006AF1A1 /* ListDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ListDetailViewController.swift; path = SimplyDo/ListDetailViewController.swift; sourceTree = "<group>"; };
+		DAF582E11C3B4714006AF1A1 /* SimplyDo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SimplyDo.xcdatamodel; sourceTree = "<group>"; };
+		DAF582ED1C3B47B8006AF1A1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = SimplyDo/Images.xcassets; sourceTree = "<group>"; };
+		DAF582F11C3B4833006AF1A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = SimplyDo/Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DAF582F31C3B4833006AF1A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = SimplyDo/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +79,20 @@
 		DA22BE881AD87A9900A7E210 = {
 			isa = PBXGroup;
 			children = (
+				DAF582F01C3B4833006AF1A1 /* LaunchScreen.xib */,
+				DAF582F21C3B4833006AF1A1 /* Main.storyboard */,
+				DAF582ED1C3B47B8006AF1A1 /* Images.xcassets */,
+				DAF582D71C3B4714006AF1A1 /* AllListsViewController.swift */,
+				DAF582D81C3B4714006AF1A1 /* AppDelegate.swift */,
+				DAF582D91C3B4714006AF1A1 /* Checklist.swift */,
+				DAF582DA1C3B4714006AF1A1 /* ChecklistItem.swift */,
+				DAF582DB1C3B4714006AF1A1 /* ChecklistViewController.swift */,
+				DAF582DC1C3B4714006AF1A1 /* DataModel.swift */,
+				DAF582DD1C3B4714006AF1A1 /* IconPickerViewController.swift */,
+				DAF582DE1C3B4714006AF1A1 /* ItemDetailViewController.swift */,
+				DAF582DF1C3B4714006AF1A1 /* ListDetailViewController.swift */,
+				DAF582E01C3B4714006AF1A1 /* SimplyDo.xcdatamodeld */,
+				DAF582D51C3B469B006AF1A1 /* SimplyDoTests.swift */,
 				DA22BEB91AD87ABA00A7E210 /* iAd.framework */,
 				DA22BE931AD87A9900A7E210 /* SimplyDo */,
 				DA22BEAC1AD87A9900A7E210 /* SimplyDoTests */,
@@ -97,12 +112,6 @@
 		DA22BE931AD87A9900A7E210 /* SimplyDo */ = {
 			isa = PBXGroup;
 			children = (
-				DA22BE961AD87A9900A7E210 /* AppDelegate.swift */,
-				DA22BE9B1AD87A9900A7E210 /* ChecklistViewController.swift */,
-				DA22BE9D1AD87A9900A7E210 /* Main.storyboard */,
-				DA22BEA01AD87A9900A7E210 /* Images.xcassets */,
-				DA22BEA21AD87A9900A7E210 /* LaunchScreen.xib */,
-				DA22BE981AD87A9900A7E210 /* SimplyDo.xcdatamodeld */,
 				DA22BE941AD87A9900A7E210 /* Supporting Files */,
 			);
 			name = SimplyDo;
@@ -112,13 +121,6 @@
 		DA22BE941AD87A9900A7E210 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				DAAAB2CF1B014BF9003E8D15 /* AllListsViewController.swift */,
-				DAAAB2D11B015299003E8D15 /* Checklist.swift */,
-				DA3986F21B6AE2E90098FFDB /* IconPickerViewController.swift */,
-				DA9B46BF1ADC7CE900680F16 /* ChecklistItem.swift */,
-				DA02A9A91B02A67F00CE2102 /* ListDetailViewController.swift */,
-				DA5E96661AEEBF67003306EE /* ItemDetailViewController.swift */,
-				DA81A5FD1B30DA8C002C40D1 /* DataModel.swift */,
 				DA22BE951AD87A9900A7E210 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -193,6 +195,7 @@
 				TargetAttributes = {
 					DA22BE901AD87A9900A7E210 = {
 						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = 8WJ67274W7;
 					};
 					DA22BEA81AD87A9900A7E210 = {
 						CreatedOnToolsVersion = 6.3;
@@ -224,9 +227,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA22BE9F1AD87A9900A7E210 /* Main.storyboard in Resources */,
-				DA22BEA41AD87A9900A7E210 /* LaunchScreen.xib in Resources */,
-				DA22BEA11AD87A9900A7E210 /* Images.xcassets in Resources */,
+				DAF582F41C3B4833006AF1A1 /* LaunchScreen.xib in Resources */,
+				DAF582F51C3B4833006AF1A1 /* Main.storyboard in Resources */,
+				DAF582EF1C3B47B8006AF1A1 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,16 +247,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA22BE9C1AD87A9900A7E210 /* ChecklistViewController.swift in Sources */,
-				DA5E96671AEEBF67003306EE /* ItemDetailViewController.swift in Sources */,
-				DA9B46C01ADC7CE900680F16 /* ChecklistItem.swift in Sources */,
-				DA3986F31B6AE2E90098FFDB /* IconPickerViewController.swift in Sources */,
-				DAAAB2D01B014BF9003E8D15 /* AllListsViewController.swift in Sources */,
-				DA02A9AA1B02A67F00CE2102 /* ListDetailViewController.swift in Sources */,
-				DA22BE971AD87A9900A7E210 /* AppDelegate.swift in Sources */,
-				DA22BE9A1AD87A9900A7E210 /* SimplyDo.xcdatamodeld in Sources */,
-				DAAAB2D21B015299003E8D15 /* Checklist.swift in Sources */,
-				DA81A5FE1B30DA8C002C40D1 /* DataModel.swift in Sources */,
+				DAF582E21C3B4714006AF1A1 /* AllListsViewController.swift in Sources */,
+				DAF582E31C3B4714006AF1A1 /* AppDelegate.swift in Sources */,
+				DAF582E41C3B4714006AF1A1 /* Checklist.swift in Sources */,
+				DAF582E51C3B4714006AF1A1 /* ChecklistItem.swift in Sources */,
+				DAF582E61C3B4714006AF1A1 /* ChecklistViewController.swift in Sources */,
+				DAF582E71C3B4714006AF1A1 /* DataModel.swift in Sources */,
+				DAF582E81C3B4714006AF1A1 /* IconPickerViewController.swift in Sources */,
+				DAF582E91C3B4714006AF1A1 /* ItemDetailViewController.swift in Sources */,
+				DAF582EA1C3B4714006AF1A1 /* ListDetailViewController.swift in Sources */,
+				DAF582EB1C3B4714006AF1A1 /* SimplyDo.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,7 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA22BEB01AD87A9900A7E210 /* SimplyDoTests.swift in Sources */,
+				DAF582D61C3B469B006AF1A1 /* SimplyDoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,22 +279,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DA22BE9D1AD87A9900A7E210 /* Main.storyboard */ = {
+		DAF582F01C3B4833006AF1A1 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DA22BE9E1AD87A9900A7E210 /* Base */,
-			);
-			name = Main.storyboard;
-			path = SimplyDo;
-			sourceTree = "<group>";
-		};
-		DA22BEA21AD87A9900A7E210 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DA22BEA31AD87A9900A7E210 /* Base */,
+				DAF582F11C3B4833006AF1A1 /* Base */,
 			);
 			name = LaunchScreen.xib;
-			path = SimplyDo;
+			sourceTree = "<group>";
+		};
+		DAF582F21C3B4833006AF1A1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAF582F31C3B4833006AF1A1 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -482,13 +483,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		DA22BE981AD87A9900A7E210 /* SimplyDo.xcdatamodeld */ = {
+		DAF582E01C3B4714006AF1A1 /* SimplyDo.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				DA22BE991AD87A9900A7E210 /* SimplyDo.xcdatamodel */,
+				DAF582E11C3B4714006AF1A1 /* SimplyDo.xcdatamodel */,
 			);
-			currentVersion = DA22BE991AD87A9900A7E210 /* SimplyDo.xcdatamodel */;
-			path = SimplyDo.xcdatamodeld;
+			currentVersion = DAF582E11C3B4714006AF1A1 /* SimplyDo.xcdatamodel */;
+			name = SimplyDo.xcdatamodeld;
+			path = SimplyDo/SimplyDo.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

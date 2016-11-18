@@ -18,28 +18,28 @@ class DataModel {
     }
     
     func documentsDirectory() -> String {
-        let paths = NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true)
+        let paths = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)
         return paths [0]
     }
     
     func dataFilePath() -> String {
-        return (documentsDirectory() as NSString).stringByAppendingPathComponent("SimplyDo.plist")
+        return (documentsDirectory() as NSString).appendingPathComponent("SimplyDo.plist")
     }
     
     func saveSimplyDo() {
         let data = NSMutableData()
-        let archiver = NSKeyedArchiver(forWritingWithMutableData: data)
-        archiver.encodeObject(lists, forKey: "SimplyDo")
+        let archiver = NSKeyedArchiver(forWritingWith: data)
+        archiver.encode(lists, forKey: "SimplyDo")
         archiver.finishEncoding()
-        data.writeToFile(dataFilePath(), atomically: true)
+        data.write(toFile: dataFilePath(), atomically: true)
     }
     
     func loadSimplyDo() {
         let path = dataFilePath()
-        if NSFileManager.defaultManager().fileExistsAtPath(path) {
-            if let data = NSData(contentsOfFile: path) {
-                let unarchiver = NSKeyedUnarchiver(forReadingWithData: data)
-                lists = unarchiver.decodeObjectForKey("SimplyDo") as! [Checklist]
+        if FileManager.default.fileExists(atPath: path) {
+            if let data = try? Data(contentsOf: URL(fileURLWithPath: path)) {
+                let unarchiver = NSKeyedUnarchiver(forReadingWith: data)
+                lists = unarchiver.decodeObject(forKey: "SimplyDo") as! [Checklist]
                 unarchiver.finishDecoding()
                 
                 sortChecklists()
@@ -49,45 +49,45 @@ class DataModel {
     }
     
     func registerDefaults() {
-        let dictionary = [ "ChecklistIndex": -1, "FirstTime": true, "ChecklistItemID": 0 ]
-        NSUserDefaults.standardUserDefaults().registerDefaults(dictionary)
+        let dictionary = [ "ChecklistIndex": -1, "FirstTime": true, "ChecklistItemID": 0 ] as [String : Any]
+        UserDefaults.standard.register(defaults: dictionary)
         
     }
     
     var indexOfSelectedChecklist: Int {
         get {
-            return NSUserDefaults.standardUserDefaults().integerForKey("ChecklistIndex")
+            return UserDefaults.standard.integer(forKey: "ChecklistIndex")
         }
         set {
-            NSUserDefaults.standardUserDefaults().setInteger(newValue, forKey: "ChecklistIndex")
-            NSUserDefaults.standardUserDefaults().synchronize()
+            UserDefaults.standard.set(newValue, forKey: "ChecklistIndex")
+            UserDefaults.standard.synchronize()
             
         }
         
     }
     
     func handleFirstTime() {
-        let userDefaults = NSUserDefaults.standardUserDefaults()
-        let firstTime = userDefaults.boolForKey("FirstTime")
+        let userDefaults = UserDefaults.standard
+        let firstTime = userDefaults.bool(forKey: "FirstTime")
         if firstTime {
             let checklist = Checklist(name: "First List")
             lists.append(checklist)
             indexOfSelectedChecklist = 0
-            userDefaults.setBool(false, forKey: "FirstTime")
+            userDefaults.set(false, forKey: "FirstTime")
         }
         
     }
     
     func sortChecklists() {
-        lists.sortInPlace({ checklist1, checklist2 in return
+        lists.sort(by: { checklist1, checklist2 in return
             checklist1.name.localizedStandardCompare(checklist2.name) ==
-                NSComparisonResult.OrderedAscending })
+                ComparisonResult.orderedAscending })
     }
     
     class func nextChecklistItemID() -> Int {
-        let userDefaults = NSUserDefaults.standardUserDefaults()
-        let itemID = userDefaults.integerForKey("ChecklistItemID")
-        userDefaults.setInteger(itemID + 1, forKey: "ChecklistItemID")
+        let userDefaults = UserDefaults.standard
+        let itemID = userDefaults.integer(forKey: "ChecklistItemID")
+        userDefaults.set(itemID + 1, forKey: "ChecklistItemID")
         userDefaults.synchronize()
         return itemID
     }

@@ -41,7 +41,7 @@
 		DA22BEAE1AD87A9900A7E210 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = SimplyDoTests/Info.plist; sourceTree = "<group>"; };
 		DA22BEAF1AD87A9900A7E210 /* SimplyDoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = SimplyDoTests.swift; path = SimplyDoTests/SimplyDoTests.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		DA22BEB91AD87ABA00A7E210 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
-		DAF582D51C3B469B006AF1A1 /* SimplyDoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SimplyDoTests.swift; path = SimplyDoTests/SimplyDoTests.swift; sourceTree = "<group>"; };
+		DAF582D51C3B469B006AF1A1 /* SimplyDoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SimplyDoTests.swift; path = SimplyDoTests/SimplyDoTests.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		DAF582D71C3B4714006AF1A1 /* AllListsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AllListsViewController.swift; path = SimplyDo/AllListsViewController.swift; sourceTree = "<group>"; };
 		DAF582D81C3B4714006AF1A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = SimplyDo/AppDelegate.swift; sourceTree = "<group>"; };
 		DAF582D91C3B4714006AF1A1 /* Checklist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Checklist.swift; path = SimplyDo/Checklist.swift; sourceTree = "<group>"; };
@@ -190,15 +190,17 @@
 			attributes = {
 				LastSwiftMigration = 0720;
 				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Paul Prestwood";
 				TargetAttributes = {
 					DA22BE901AD87A9900A7E210 = {
 						CreatedOnToolsVersion = 6.3;
 						DevelopmentTeam = 8WJ67274W7;
+						LastSwiftMigration = 0800;
 					};
 					DA22BEA81AD87A9900A7E210 = {
 						CreatedOnToolsVersion = 6.3;
+						LastSwiftMigration = 0800;
 						TestTargetID = DA22BE901AD87A9900A7E210;
 					};
 				};
@@ -311,8 +313,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Paul Prestwood (8WJ67274W7)";
@@ -359,8 +363,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Paul Prestwood (8WJ67274W7)";
@@ -381,7 +387,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PROVISIONING_PROFILE = "23b03952-57f4-492f-a676-af521f62ebaf";
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -401,6 +407,7 @@
 				PRODUCT_NAME = SimplyDo;
 				PROVISIONING_PROFILE = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -419,7 +426,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.californiacodedesigns.simplydo;
 				PRODUCT_NAME = SimplyDo;
 				PROVISIONING_PROFILE = "";
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
@@ -437,6 +445,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.californiacodedesigns.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = SimplyDo;
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimplyDo.app/SimplyDo";
 			};
 			name = Debug;
@@ -450,6 +459,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.californiacodedesigns.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = SimplyDo;
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimplyDo.app/SimplyDo";
 			};
 			name = Release;
